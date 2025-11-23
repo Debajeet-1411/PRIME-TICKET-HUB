@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMDB Movie Fetcher Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: #1a1a1a;
+            color: white;
+        }
+        
+        .header {
+            background: #2a2a2a;
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 2px solid #ff6b6b;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .header p {
+            color: #b0b0b0;
+        }
+        
+        .controls {
+            padding: 1.5rem 2rem;
+            background: #2a2a2a;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        button {
+            background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+        }
+        
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .stats {
+            padding: 1rem 2rem;
+            background: #2a2a2a;
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            border-bottom: 1px solid #3a3a3a;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #ff6b6b;
+        }
+        
+        .stat-label {
+            color: #b0b0b0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎬 TMDB Movie Fetcher</h1>
+        <p>Fetch movies from TMDB API and merge with local data</p>
+    </div>
+    
+    <div class="controls">
+        <button onclick="main()" id="fetchBtn">Fetch & Merge Movies</button>
+        <button onclick="renderMovies(window.allMovies || [])" id="renderBtn">Re-render Movies</button>
+        <button onclick="downloadMovies()" id="downloadBtn">Download JSON</button>
+    </div>
+    
+    <div class="stats">
+        <div class="stat">
+            <div class="stat-value" id="localCount">0</div>
+            <div class="stat-label">Local Movies</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value" id="apiCount">0</div>
+            <div class="stat-label">API Movies</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value" id="totalCount">0</div>
+            <div class="stat-label">Total Movies</div>
+        </div>
+    </div>
+    
+    <div id="movie-list"></div>
+    
+    <script src="./tmdb-movie-fetcher.js"></script>
+    <script>
+        // Update stats
+        function updateStats(local, api, total) {
+            document.getElementById('localCount').textContent = local;
+            document.getElementById('apiCount').textContent = api;
+            document.getElementById('totalCount').textContent = total;
+        }
+        
+        // Download merged movies as JSON
+        function downloadMovies() {
+            if (!window.allMovies || window.allMovies.length === 0) {
+                alert('No movies to download. Please fetch movies first.');
+                return;
+            }
+            
+            const dataStr = JSON.stringify(window.allMovies, null, 2);
+            const dataBlob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(dataBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'merged-movies.json';
+            link.click();
+            URL.revokeObjectURL(url);
+        }
+        
+        // Override main to update stats
+        const originalMain = main;
+        main = async function() {
+            const fetchBtn = document.getElementById('fetchBtn');
+            fetchBtn.disabled = true;
+            fetchBtn.textContent = 'Fetching...';
+            
+            try {
+                const localMovies = await fetchLocalMovies();
+                updateStats(localMovies.length, 0, localMovies.length);
+                
+                const apiMoviesRaw = await fetchApiMovies(1);
+                const startId = localMovies.length > 0 
+                    ? Math.max(...localMovies.map(m => m.id)) + 1 
+                    : 1;
+                
+                const apiMoviesConverted = [];
+                for (let i = 0; i < Math.min(10, apiMoviesRaw.length); i++) {
+                    const converted = await convertApiMovie(apiMoviesRaw[i], startId + i);
+                    if (converted) {
+                        apiMoviesConverted.push(converted);
+                    }
+                    updateStats(localMovies.length, apiMoviesConverted.length, localMovies.length + apiMoviesConverted.length);
+                    await new Promise(resolve => setTimeout(resolve, 200));
+                }
+                
+                const allMovies = mergeMovies(localMovies, apiMoviesConverted);
+                window.allMovies = allMovies;
+                
+                updateStats(localMovies.length, apiMoviesConverted.length, allMovies.length);
+                renderMovies(allMovies);
+                
+                fetchBtn.textContent = 'Fetch & Merge Movies';
+                fetchBtn.disabled = false;
+            } catch (error) {
+                console.error(error);
+                fetchBtn.textContent = 'Error - Try Again';
+                fetchBtn.disabled = false;
+            }
+        };
+    </script>
+</body>
+</html>
