@@ -15,6 +15,7 @@ const Booking = () => {
     const [loading, setLoading] = useState(true);
     const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
     const [fetchedMovie, setFetchedMovie] = useState(null);
+    const [selectedSeats, setSelectedSeats] = useState([]);
 
     // Get all TMDB movies from localStorage cache
     useEffect(() => {
@@ -113,7 +114,7 @@ const Booking = () => {
 
     const bookedSeats = ['A5', 'A6', 'C4', 'C5', 'F8', 'F9'];
 
-    const [selectedSeats, setSelectedSeats] = useState([]);
+
 
     const handleSeatClick = (seatId) => {
         if (bookedSeats.includes(seatId)) return;
