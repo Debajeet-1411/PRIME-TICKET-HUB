@@ -1,0 +1,129 @@
+================================================================================
+GOLDENTICKETHUB PROJECT - USER PROMPTS HISTORY
+================================================================================
+Project: Movie Ticket Booking Website (GoldenTicketHub / Golden Seat)
+Compiled: 2025-11-23
+================================================================================
+
+MAIN CONVERSATION (e2bb5403-8557-4038-a1e9-c2e185c80e11)
+================================================================================
+
+PROMPT 1:
+Building Movie Booking Website
+
+PROMPT 2:
+[Initial project requirements - implied from context]
+- Build a fully responsive and modern movie ticket booking website
+- Name: "GoldenTicketHub" (also referred to as "Golden Seat")
+- Inspired by BookMyShow (movies only)
+- Clean white theme with soft pastel red-orange gradients
+- Beautiful UI with smooth transitions, rounded cards, soft shadows
+- Complete booking flow from home to ticket confirmation
+- Include seat selection and dummy payment gateway
+- Integrate real movie data (posters, trailers, cast)
+
+PROMPT 3:
+[Feedback on movie backgrounds]
+"only pushpa and jawan movie backgrounds are visible, link other movies properly"
+
+PROMPT 4:
+[Request to update movie data]
+User updated movies.json with new image URLs
+
+PROMPT 5:
+[Approval of implementation plan]
+"LGTM" (Looks Good To Me)
+
+PROMPT 6:
+preview the website and fix the errors and bugs
+
+PROMPT 7:
+give me a list of all the prompts igave u in this entire project as it is and save it in a txt file, if possible add the promptsfromother workspaces also
+
+================================================================================
+RELATED CONVERSATIONS
+================================================================================
+
+CONVERSATION: d69d52f5-51a6-4959-9ddb-723e5744644b
+Title: Fixing App Errors
+Created: 2025-11-22T17:02:47Z
+Last Modified: 2025-11-22T17:35:53Z
+
+PROMPTS FROM THIS CONVERSATION:
+- Fix frontend errors in movie ticket booking application
+- Resolve issues with movie thumbnails not displaying
+- Fix "Book Now" button in hero carousel not working
+- Fix syntax error in Payment.jsx file
+- Update image links in CSS for movie posters
+- Ensure all movie posters are correctly displayed
+
+================================================================================
+
+CONVERSATION: 6e0137f5-a52e-42c6-85cb-55ce16b5d12d
+Title: Adding UPI Payment Method
+Created: 2025-11-22T17:22:48Z
+Last Modified: 2025-11-22T17:30:32Z
+
+PROMPTS FROM THIS CONVERSATION:
+- Add UPI payment method to the website
+- Explore existing codebase to understand current payment implementations
+- Plan integration of UPI payment option
+- Implement UPI payment UI (input form for VPA/QR code)
+- Simulate UPI payment logic with dummy data
+- Verify the changes after implementation
+
+================================================================================
+KEY FEATURE REQUESTS THROUGHOUT THE PROJECT
+================================================================================
+
+CORE FEATURES:
+✓ Smooth hero carousel with autoplay
+✓ Loading animations
+✓ Clean navbar with search functionality
+✓ Seat selection similar to BookMyShow
+✓ Dummy payment gateway (Card + UPI)
+✓ Downloadable ticket on success
+✓ Language-wise categories on home page
+✓ Filters and search bar for movie listing
+✓ Toast notifications
+✓ Footer with links
+✓ High-resolution real posters
+
+PAGES REQUESTED:
+✓ Home Page (with Hero Carousel)
+✓ Movies Listing Page (with filters)
+✓ Movie Details Page
+✓ Booking/Seat Selection Page
+✓ Payment Page
+✓ Confirmation Page
+✓ Login Page
+✓ Signup Page
+✓ My Bookings Page (with tabs)
+✓ Support Page (with FAQ)
+
+REFINEMENTS REQUESTED:
+✓ Fix movie data with reliable image URLs
+✓ Create Movies page with grid and filters
+✓ Create Support page with FAQ and contact info
+✓ Enhance My Bookings with tabs (Upcoming/History)
+✓ Verify all links work correctly
+✓ Fix mobile menu navigation
+✓ Improve authentication state handling
+
+================================================================================
+TECHNICAL STACK CHOSEN (Based on Requirements)
+================================================================================
+
+Frontend: React + Vite
+Routing: React Router DOM
+Icons: Lucide React
+Styling: Vanilla CSS with CSS Variables
+Theme: Clean white with pastel red-orange gradients (#ff6b6b, #ff8e8e)
+
+================================================================================
+END OF PROMPTS HISTORY
+================================================================================
+
+Note: This file contains all explicit user prompts and requests from the main
+conversation and related workspaces. Some implementation details were inferred
+from context and user feedback during the development process.

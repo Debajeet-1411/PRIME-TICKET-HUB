@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+    "title": "Pushpa 2: The Rule",
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "language": "Telugu",
+    "rating": "UA",
+    "duration": "2h 45m",
+    "poster": "/Pushpa 2 The Rule.png",
+    "backgroundImage": "https://www.masala.com/wp-content/uploads/cloud/2024/10/24/Pushpa-2-1.png",
+    "trailer": "https://www.youtube.com/embed/1kVK0MZlbI4",
+    "description": "Pushpa Raj is back to rule the smuggling world. The clash between him and SP Bhanwar Singh Shekhawat intensifies.",
+    "cast": [
+      {
+        "name": "Allu Arjun",
+        "image": "https://wallpapers.com/images/hd/allu-arjun-1889-x-1360-picture-38h3s2zkr9zd76xp.jpg"
+      },
+      {
+        "name": "Rashmika Mandanna",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Rashmika_Mandanna_at_SIIMA_2021.jpg"
+      },
+      {
+        "name": "Fahadh Faasil",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Fahadh_Faasil_at_Bangalore_Days_Trailer_Launch.jpg/220px-Fahadh_Faasil_at_Bangalore_Days_Trailer_Launch.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Jawan",
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "language": "Tamil",
+    "rating": "UA",
+    "duration": "2h 23m",
+    "poster": "/Jawan.png",
+    "backgroundImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202307/ark-jawan_0-sixteen_nine.jpg",
+    "trailer": "https://www.youtube.com/embed/MWOlnZSnXJo",
+    "description": "A high-octane action thriller which outlines the emotional journey of a man who is set to rectify the wrongs in the society.",
+    "cast": [
+      {
+        "name": "Shah Rukh Khan",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg"
+      },
+      {
+        "name": "Nayanthara",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Nayanthara_at_Connect_premiere.jpg"
+      },
+      {
+        "name": "Vijay Sethupathi",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Vijay_Sethupathi_at_Master_Audio_Launch.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Leo",
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "language": "Tamil",
+    "rating": "A",
+    "duration": "2h 44m",
+    "poster": "/Leo.png",
+    "backgroundImage": "https://tse1.explicit.bing.net/th/id/OIP.uoLp5cJnckUDv-31LSfJxwHaLH",
+    "trailer": "https://www.youtube.com/embed/Po3jStA673E",
+    "description": "Parthiban is a mild-mannered cafe owner in Kashmir, who fends off a gang of murderous thugs and gains attention from a drug cartel.",
+    "cast": [
+      {
+        "name": "Vijay",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Vijay_at_the_Nadigar_Sangam_Protest.jpg"
+      },
+      {
+        "name": "Trisha Krishnan",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Trisha_Krishnan_at_PS1_Audio_Launch.jpg"
+      },
+      {
+        "name": "Sanjay Dutt",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sanjay_Dutt_promote_Bhoomi.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Salaar: Part 1 - Ceasefire",
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "language": "Telugu",
+    "rating": "A",
+    "duration": "2h 55m",
+    "poster": "/Salaar Part 1 Ceasefire.png",
+    "backgroundImage": "https://mum-objectstore.e2enetworks.net/tringcoin/seo_popular_master/202305271239_BAltyNjseiSekudN.jpg",
+    "trailer": "https://www.youtube.com/embed/4GPvYMKtrtI",
+    "description": "A gang leader tries to keep a promise made to his dying friend and takes on the other criminal gangs.",
+    "cast": [
+      {
+        "name": "Prabhas",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Prabhas_at_Saaho_Pre_Release_Event.jpg"
+      },
+      {
+        "name": "Prithviraj Sukumaran",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Prithviraj_Sukumaran_at_Lucifer_Press_Meet.jpg"
+      },
+      {
+        "name": "Shruti Haasan",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Shruti_Haasan_at_Cannes_2017.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Dunki",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "language": "Hindi",
+    "rating": "UA",
+    "duration": "2h 17m",
+    "poster": "/Dunki.png",
+    "backgroundImage": "https://tse2.mm.bing.net/th/id/OIP.vfLBTH8OqZUO7pFWzsnXhgHaEK",
+    "trailer": "https://www.youtube.com/embed/Zd69FfhBmSc",
+    "description": "Four friends from a village in Punjab share a common dream: to go to England.",
+    "cast": [
+      {
+        "name": "Shah Rukh Khan",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg"
+      },
+      {
+        "name": "Taapsee Pannu",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Taapsee_Pannu_at_Thappad_Screening.jpg"
+      },
+      {
+        "name": "Vicky Kaushal",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Vicky_Kaushal_at_Raazi_success_bash.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Animal",
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "language": "Hindi",
+    "rating": "UA",
+    "duration": "2h 4m",
+    "poster": "/Animal.png",
+    "backgroundImage": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1200&h=400&fit=crop",
+    "trailer": "https://www.youtube.com/embed/YXFM7WfbZGw",
+    "description": "A son's love for his father. Often paralyzed by his father's inability to love him back, the son's love becomes obsessive and tragic.",
+    "cast": [
+      {
+        "name": "Ranbir Kapoor",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Ranbir_Kapoor_promoting_Brahmastra.jpg"
+      },
+      {
+        "name": "Rashmika Mandanna",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Rashmika_Mandanna_at_SIIMA_2021.jpg"
+      },
+      {
+        "name": "Anil Kapoor",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Anil_Kapoor_promoting_Total_Dhamaal.jpg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1144 @@
+{
+    "Andhra Pradesh": {
+        "Visakhapatnam": [
+            {
+                "id": 1,
+                "name": "INOX: CMR Central",
+                "location": "Maddilapalem, Visakhapatnam",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 2,
+                "name": "PVR: Vizag Central",
+                "location": "Dwaraka Nagar, Visakhapatnam",
+                "showtimes": [
+                    "09:30 AM",
+                    "12:30 PM",
+                    "03:30 PM",
+                    "06:30 PM",
+                    "09:30 PM"
+                ]
+            }
+        ],
+        "Vijayawada": [
+            {
+                "id": 3,
+                "name": "PVR: Leplly Mall",
+                "location": "Benz Circle, Vijayawada",
+                "showtimes": [
+                    "10:30 AM",
+                    "01:30 PM",
+                    "04:30 PM",
+                    "07:30 PM",
+                    "10:30 PM"
+                ]
+            }
+        ],
+        "Tirupati": [
+            {
+                "id": 4,
+                "name": "INOX: Lepakshi Mall",
+                "location": "Renigunta Road, Tirupati",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM"
+                ]
+            }
+        ]
+    },
+    "Assam": {
+        "Guwahati": [
+            {
+                "id": 5,
+                "name": "PVR: Guwahati Central",
+                "location": "GS Road, Guwahati",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 6,
+                "name": "INOX: City Centre Mall",
+                "location": "Khanapara, Guwahati",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM"
+                ]
+            }
+        ]
+    },
+    "Bihar": {
+        "Patna": [
+            {
+                "id": 7,
+                "name": "PVR: Patna Central",
+                "location": "Frazer Road, Patna",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 8,
+                "name": "INOX: P&M Mall",
+                "location": "Exhibition Road, Patna",
+                "showtimes": [
+                    "09:30 AM",
+                    "12:30 PM",
+                    "03:30 PM",
+                    "06:30 PM",
+                    "09:30 PM"
+                ]
+            }
+        ]
+    },
+    "Chandigarh": {
+        "Chandigarh": [
+            {
+                "id": 9,
+                "name": "PVR: Elante Mall",
+                "location": "Industrial Area, Chandigarh",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 10,
+                "name": "INOX: Nexus Elante",
+                "location": "Sector 17, Chandigarh",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM",
+                    "11:00 PM"
+                ]
+            }
+        ]
+    },
+    "Chhattisgarh": {
+        "Raipur": [
+            {
+                "id": 11,
+                "name": "PVR: Magneto Mall",
+                "location": "GE Road, Raipur",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 12,
+                "name": "INOX: City Mall 36",
+                "location": "Pandri, Raipur",
+                "showtimes": [
+                    "09:45 AM",
+                    "12:45 PM",
+                    "03:45 PM",
+                    "06:45 PM",
+                    "09:45 PM"
+                ]
+            }
+        ]
+    },
+    "Delhi": {
+        "New Delhi": [
+            {
+                "id": 13,
+                "name": "PVR: Saket",
+                "location": "Select Citywalk, Saket",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 14,
+                "name": "PVR: Priya",
+                "location": "Vasant Vihar, New Delhi",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM",
+                    "11:00 PM"
+                ]
+            },
+            {
+                "id": 15,
+                "name": "INOX: Nehru Place",
+                "location": "Nehru Place, New Delhi",
+                "showtimes": [
+                    "09:30 AM",
+                    "12:30 PM",
+                    "03:30 PM",
+                    "06:30 PM",
+                    "09:30 PM"
+                ]
+            }
+        ],
+        "Gurgaon": [
+            {
+                "id": 16,
+                "name": "PVR: Ambience Mall",
+                "location": "Ambience Mall, Gurgaon",
+                "showtimes": [
+                    "10:30 AM",
+                    "01:30 PM",
+                    "04:30 PM",
+                    "07:30 PM",
+                    "10:30 PM"
+                ]
+            },
+            {
+                "id": 17,
+                "name": "Cinepolis: DLF Mega Mall",
+                "location": "DLF Phase 1, Gurgaon",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM"
+                ]
+            }
+        ],
+        "Noida": [
+            {
+                "id": 18,
+                "name": "PVR: Logix City Centre",
+                "location": "Sector 32, Noida",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 19,
+                "name": "INOX: Gardens Galleria",
+                "location": "Sector 38, Noida",
+                "showtimes": [
+                    "11:30 AM",
+                    "02:30 PM",
+                    "05:30 PM",
+                    "08:30 PM"
+                ]
+            }
+        ]
+    },
+    "Goa": {
+        "Panaji": [
+            {
+                "id": 20,
+                "name": "INOX: Old GMC Complex",
+                "location": "Panaji, Goa",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            }
+        ],
+        "Margao": [
+            {
+                "id": 21,
+                "name": "INOX: Margao",
+                "location": "Margao, Goa",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM"
+                ]
+            }
+        ]
+    },
+    "Gujarat": {
+        "Ahmedabad": [
+            {
+                "id": 22,
+                "name": "PVR: Acropolis Mall",
+                "location": "Thaltej, Ahmedabad",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 23,
+                "name": "INOX: Rajpath Rangoli",
+                "location": "Bodakdev, Ahmedabad",
+                "showtimes": [
+                    "09:30 AM",
+                    "12:30 PM",
+                    "03:30 PM",
+                    "06:30 PM",
+                    "09:30 PM"
+                ]
+            },
+            {
+                "id": 24,
+                "name": "Cinepolis: Himalaya Mall",
+                "location": "Drive In Road, Ahmedabad",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM",
+                    "11:00 PM"
+                ]
+            }
+        ],
+        "Surat": [
+            {
+                "id": 25,
+                "name": "PVR: Rahul Raj Mall",
+                "location": "Dumas Road, Surat",
+                "showtimes": [
+                    "10:15 AM",
+                    "01:15 PM",
+                    "04:15 PM",
+                    "07:15 PM",
+                    "10:15 PM"
+                ]
+            },
+            {
+                "id": 26,
+                "name": "INOX: VR Surat",
+                "location": "Dumas Road, Surat",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM"
+                ]
+            }
+        ],
+        "Vadodara": [
+            {
+                "id": 27,
+                "name": "INOX: Seven Seas Mall",
+                "location": "Fatehgunj, Vadodara",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            }
+        ]
+    },
+    "Haryana": {
+        "Faridabad": [
+            {
+                "id": 28,
+                "name": "PVR: Crown Plaza",
+                "location": "Sector 15, Faridabad",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            }
+        ],
+        "Rohtak": [
+            {
+                "id": 29,
+                "name": "INOX: Omaxe Mall",
+                "location": "Civil Lines, Rohtak",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM"
+                ]
+            }
+        ]
+    },
+    "Himachal Pradesh": {
+        "Shimla": [
+            {
+                "id": 30,
+                "name": "PVR: Shimla",
+                "location": "Mall Road, Shimla",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM"
+                ]
+            }
+        ]
+    },
+    "Jharkhand": {
+        "Ranchi": [
+            {
+                "id": 31,
+                "name": "PVR: Nucleus Mall",
+                "location": "Doranda, Ranchi",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 32,
+                "name": "INOX: Ranchi",
+                "location": "Main Road, Ranchi",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM"
+                ]
+            }
+        ]
+    },
+    "Karnataka": {
+        "Bangalore": [
+            {
+                "id": 33,
+                "name": "PVR: Nexus, Koramangala",
+                "location": "Koramangala, Bangalore",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:30 PM",
+                    "04:45 PM",
+                    "08:00 PM",
+                    "11:15 PM"
+                ]
+            },
+            {
+                "id": 34,
+                "name": "INOX: Lido, Ulsoor",
+                "location": "Ulsoor, Bangalore",
+                "showtimes": [
+                    "09:30 AM",
+                    "12:45 PM",
+                    "04:00 PM",
+                    "07:30 PM",
+                    "10:45 PM"
+                ]
+            },
+            {
+                "id": 35,
+                "name": "Cinepolis: Forum Shantiniketan",
+                "location": "Whitefield, Bangalore",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:15 PM",
+                    "05:30 PM",
+                    "09:00 PM"
+                ]
+            },
+            {
+                "id": 36,
+                "name": "PVR: Vega City, Bannerghatta Road",
+                "location": "Bannerghatta Road, Bangalore",
+                "showtimes": [
+                    "10:30 AM",
+                    "01:45 PM",
+                    "05:00 PM",
+                    "08:15 PM"
+                ]
+            }
+        ],
+        "Mysore": [
+            {
+                "id": 37,
+                "name": "PVR: Forum Centre City Mall",
+                "location": "Mysore Road, Mysore",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 38,
+                "name": "INOX: Garuda Mall",
+                "location": "Saraswathipuram, Mysore",
+                "showtimes": [
+                    "11:30 AM",
+                    "02:30 PM",
+                    "05:30 PM",
+                    "08:30 PM"
+                ]
+            }
+        ],
+        "Mangalore": [
+            {
+                "id": 39,
+                "name": "PVR: Forum Fiza Mall",
+                "location": "Pandeshwar, Mangalore",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:15 PM",
+                    "04:30 PM",
+                    "07:45 PM",
+                    "11:00 PM"
+                ]
+            },
+            {
+                "id": 40,
+                "name": "Cinepolis: City Centre Mall",
+                "location": "Hampankatta, Mangalore",
+                "showtimes": [
+                    "09:45 AM",
+                    "12:45 PM",
+                    "03:45 PM",
+                    "06:45 PM",
+                    "09:45 PM"
+                ]
+            }
+        ],
+        "Hubli": [
+            {
+                "id": 41,
+                "name": "INOX: Urban Oasis Mall",
+                "location": "Gokul Road, Hubli",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            }
+        ]
+    },
+    "Kerala": {
+        "Kochi": [
+            {
+                "id": 42,
+                "name": "PVR: Lulu Mall",
+                "location": "Edappally, Kochi",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 43,
+                "name": "INOX: Oberon Mall",
+                "location": "Edappally, Kochi",
+                "showtimes": [
+                    "09:30 AM",
+                    "12:30 PM",
+                    "03:30 PM",
+                    "06:30 PM",
+                    "09:30 PM"
+                ]
+            }
+        ],
+        "Thiruvananthapuram": [
+            {
+                "id": 44,
+                "name": "PVR: Mall of Travancore",
+                "location": "Thampanoor, Thiruvananthapuram",
+                "showtimes": [
+                    "10:30 AM",
+                    "01:30 PM",
+                    "04:30 PM",
+                    "07:30 PM",
+                    "10:30 PM"
+                ]
+            }
+        ],
+        "Kozhikode": [
+            {
+                "id": 45,
+                "name": "PVR: Focus Mall",
+                "location": "NH Bypass, Kozhikode",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM"
+                ]
+            }
+        ]
+    },
+    "Madhya Pradesh": {
+        "Indore": [
+            {
+                "id": 46,
+                "name": "PVR: Treasure Island",
+                "location": "MG Road, Indore",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 47,
+                "name": "INOX: C21 Mall",
+                "location": "Vijay Nagar, Indore",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM",
+                    "11:00 PM"
+                ]
+            }
+        ],
+        "Bhopal": [
+            {
+                "id": 48,
+                "name": "INOX: DB City Mall",
+                "location": "Arera Hills, Bhopal",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            }
+        ]
+    },
+    "Maharashtra": {
+        "Mumbai": [
+            {
+                "id": 49,
+                "name": "PVR: Phoenix Palladium",
+                "location": "Lower Parel, Mumbai",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 50,
+                "name": "INOX: R-City Mall",
+                "location": "Ghatkopar, Mumbai",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM",
+                    "11:00 PM"
+                ]
+            },
+            {
+                "id": 51,
+                "name": "Cinepolis: Andheri",
+                "location": "Andheri West, Mumbai",
+                "showtimes": [
+                    "09:30 AM",
+                    "12:30 PM",
+                    "03:30 PM",
+                    "06:30 PM",
+                    "09:30 PM"
+                ]
+            }
+        ],
+        "Pune": [
+            {
+                "id": 52,
+                "name": "PVR: Phoenix Market City",
+                "location": "Viman Nagar, Pune",
+                "showtimes": [
+                    "10:15 AM",
+                    "01:15 PM",
+                    "04:15 PM",
+                    "07:15 PM",
+                    "10:15 PM"
+                ]
+            },
+            {
+                "id": 53,
+                "name": "INOX: Amanora Mall",
+                "location": "Hadapsar, Pune",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM"
+                ]
+            }
+        ],
+        "Nagpur": [
+            {
+                "id": 54,
+                "name": "PVR: Empress City Mall",
+                "location": "Nagpur Central, Nagpur",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            }
+        ],
+        "Nashik": [
+            {
+                "id": 55,
+                "name": "INOX: City Centre Mall",
+                "location": "Nashik Road, Nashik",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM"
+                ]
+            }
+        ]
+    },
+    "Odisha": {
+        "Bhubaneswar": [
+            {
+                "id": 56,
+                "name": "INOX: Esplanade One",
+                "location": "Rasulgarh, Bhubaneswar",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 57,
+                "name": "Cinepolis: Esplanade",
+                "location": "Rasulgarh, Bhubaneswar",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM"
+                ]
+            }
+        ]
+    },
+    "Punjab": {
+        "Ludhiana": [
+            {
+                "id": 58,
+                "name": "PVR: Pavilion Mall",
+                "location": "Feroze Gandhi Market, Ludhiana",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 59,
+                "name": "INOX: MBD Neopolis",
+                "location": "Jalandhar Road, Ludhiana",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM"
+                ]
+            }
+        ],
+        "Amritsar": [
+            {
+                "id": 60,
+                "name": "PVR: Trilium Mall",
+                "location": "Circular Road, Amritsar",
+                "showtimes": [
+                    "10:30 AM",
+                    "01:30 PM",
+                    "04:30 PM",
+                    "07:30 PM",
+                    "10:30 PM"
+                ]
+            }
+        ]
+    },
+    "Rajasthan": {
+        "Jaipur": [
+            {
+                "id": 61,
+                "name": "PVR: Gaurav Tower",
+                "location": "Malviya Nagar, Jaipur",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 62,
+                "name": "INOX: Crystal Palm",
+                "location": "22 Godam, Jaipur",
+                "showtimes": [
+                    "09:30 AM",
+                    "12:30 PM",
+                    "03:30 PM",
+                    "06:30 PM",
+                    "09:30 PM"
+                ]
+            },
+            {
+                "id": 63,
+                "name": "Cinepolis: World Trade Park",
+                "location": "Malviya Nagar, Jaipur",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM",
+                    "11:00 PM"
+                ]
+            }
+        ],
+        "Udaipur": [
+            {
+                "id": 64,
+                "name": "Cinepolis: Celebration Mall",
+                "location": "Udaipur",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM"
+                ]
+            }
+        ],
+        "Jodhpur": [
+            {
+                "id": 65,
+                "name": "INOX: Jodhpur",
+                "location": "Chopasni Road, Jodhpur",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM"
+                ]
+            }
+        ]
+    },
+    "Tamil Nadu": {
+        "Chennai": [
+            {
+                "id": 66,
+                "name": "PVR: Grand Galada",
+                "location": "Pallavaram, Chennai",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 67,
+                "name": "INOX: Express Avenue",
+                "location": "Royapettah, Chennai",
+                "showtimes": [
+                    "09:45 AM",
+                    "12:45 PM",
+                    "03:45 PM",
+                    "06:45 PM",
+                    "09:45 PM"
+                ]
+            },
+            {
+                "id": 68,
+                "name": "Cinepolis: VR Mall",
+                "location": "Anna Nagar, Chennai",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM",
+                    "11:00 PM"
+                ]
+            }
+        ],
+        "Coimbatore": [
+            {
+                "id": 69,
+                "name": "PVR: Fun Republic Mall",
+                "location": "Peelamedu, Coimbatore",
+                "showtimes": [
+                    "10:15 AM",
+                    "01:15 PM",
+                    "04:15 PM",
+                    "07:15 PM",
+                    "10:15 PM"
+                ]
+            },
+            {
+                "id": 70,
+                "name": "INOX: Prozone Mall",
+                "location": "Saravanampatti, Coimbatore",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM"
+                ]
+            }
+        ],
+        "Madurai": [
+            {
+                "id": 71,
+                "name": "INOX: Vishaal De Mall",
+                "location": "Madurai",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            }
+        ]
+    },
+    "Telangana": {
+        "Hyderabad": [
+            {
+                "id": 72,
+                "name": "PVR: Inorbit Mall",
+                "location": "Madhapur, Hyderabad",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 73,
+                "name": "INOX: GVK One",
+                "location": "Banjara Hills, Hyderabad",
+                "showtimes": [
+                    "09:30 AM",
+                    "12:30 PM",
+                    "03:30 PM",
+                    "06:30 PM",
+                    "09:30 PM"
+                ]
+            },
+            {
+                "id": 74,
+                "name": "Cinepolis: Mantra Mall",
+                "location": "Attapur, Hyderabad",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM",
+                    "11:00 PM"
+                ]
+            }
+        ],
+        "Warangal": [
+            {
+                "id": 75,
+                "name": "Asian GPR Multiplex",
+                "location": "Warangal",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM"
+                ]
+            }
+        ]
+    },
+    "Uttar Pradesh": {
+        "Lucknow": [
+            {
+                "id": 76,
+                "name": "PVR: Saharaganj Mall",
+                "location": "Hazratganj, Lucknow",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 77,
+                "name": "INOX: Riverside Mall",
+                "location": "Gomti Nagar, Lucknow",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM",
+                    "11:00 PM"
+                ]
+            }
+        ],
+        "Kanpur": [
+            {
+                "id": 78,
+                "name": "PVR: Z Square Mall",
+                "location": "Civil Lines, Kanpur",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            }
+        ],
+        "Agra": [
+            {
+                "id": 79,
+                "name": "INOX: Pacific Mall",
+                "location": "Sanjay Place, Agra",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM"
+                ]
+            }
+        ],
+        "Varanasi": [
+            {
+                "id": 80,
+                "name": "INOX: IP Vijaya Mall",
+                "location": "Sigra, Varanasi",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM"
+                ]
+            }
+        ]
+    },
+    "Uttarakhand": {
+        "Dehradun": [
+            {
+                "id": 81,
+                "name": "PVR: Pacific Mall",
+                "location": "Rajpur Road, Dehradun",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            }
+        ]
+    },
+    "West Bengal": {
+        "Kolkata": [
+            {
+                "id": 82,
+                "name": "PVR: South City Mall",
+                "location": "Jadavpur, Kolkata",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM",
+                    "10:00 PM"
+                ]
+            },
+            {
+                "id": 83,
+                "name": "INOX: Quest Mall",
+                "location": "Park Circus, Kolkata",
+                "showtimes": [
+                    "11:00 AM",
+                    "02:00 PM",
+                    "05:00 PM",
+                    "08:00 PM",
+                    "11:00 PM"
+                ]
+            },
+            {
+                "id": 84,
+                "name": "Cinepolis: Lake Mall",
+                "location": "Rashbehari, Kolkata",
+                "showtimes": [
+                    "09:30 AM",
+                    "12:30 PM",
+                    "03:30 PM",
+                    "06:30 PM",
+                    "09:30 PM"
+                ]
+            }
+        ],
+        "Siliguri": [
+            {
+                "id": 85,
+                "name": "INOX: Cosmos Mall",
+                "location": "Sevoke Road, Siliguri",
+                "showtimes": [
+                    "10:00 AM",
+                    "01:00 PM",
+                    "04:00 PM",
+                    "07:00 PM"
+                ]
+            }
+        ]
+    }
+}
